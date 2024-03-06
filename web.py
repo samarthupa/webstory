@@ -18,7 +18,7 @@ def generate_web_story(url):
 # Function to fetch image from Unsplash API
 def fetch_image(topic):
     # Replace 'YOUR_UNSPLASH_ACCESS_KEY' with your actual access key
-    access_key = 'YOUR_UNSPLASH_ACCESS_KEY'
+    access_key = 'FOV9yjMPpExhZ_FXnXMvEUESi0EE1FfRr1HBsin19Ts'
     
     # Unsplash API endpoint for searching photos
     url = f"https://api.unsplash.com/search/photos?query={topic}&client_id={access_key}&per_page=1"
